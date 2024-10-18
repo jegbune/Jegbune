@@ -1,6 +1,9 @@
+import { Metadata } from 'next'
 import { careers, data } from './data'
 
-
+const metadata:Metadata = {
+  title: 'About'
+}
 
 const About = () => {
   return (
