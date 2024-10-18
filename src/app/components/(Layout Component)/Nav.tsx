@@ -1,7 +1,7 @@
 "use client"
 
 import Link from 'next/link'
-import React, { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiOutlineMenu } from 'react-icons/ai'
 
 
@@ -17,10 +17,10 @@ const Nav = () => {
 
   const NavList = () => (
     <>
-      <Link href='#about' scroll={false} className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
+      <Link href='#about' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
       About
       </Link>
-      <Link href='#projects' scroll={false} className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
+      <Link href='#projects' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
       Projects
       </Link>
       <Link href='/' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
