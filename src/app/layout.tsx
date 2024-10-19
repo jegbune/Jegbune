@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 export const metadata:Metadata = {
   title: {
     absolute: '',
-    default: 'Jeremiah Egbune Portfolio',
+    default: 'Portfolio | Jeremiah Egbune',
     template: '%s | Jeremiah Egbune'
   },
   description: 'Frontend NextJS Web Developer',
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className='bg-inherit'>
         <Nav />
         {children}
         <Footer />
