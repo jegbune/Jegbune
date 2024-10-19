@@ -9,6 +9,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 :root {
   --background: linear-gradient(89deg, rgba(191, 211, 193, 1) 0%, rgba(255, 255, 255, 1) 100%);
   --foreground: #171717;
@@ -19,6 +20,9 @@ html {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+p,h1,h2,h3,h4,h5,h6 {
+  color: #000000;
 }
 
 body {
@@ -32,6 +36,7 @@ body {
     text-wrap: balance;
   }
 }
+
 .btn {
   @apply p-2 bg-green-500 text-white font-bold rounded-md
 }

@@ -2,14 +2,14 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiOutlineMenu } from 'react-icons/ai'
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiOutlineFacebook, AiOutlineMenu } from 'react-icons/ai'
 
 
 export const SocialList = () => (
-  <div className='flex gap-4'>
-    <Link href='https://github.com/jegbune' target='_blank'><AiFillGithub className='text-3xl' /></Link>
-    <Link href='https://www.linkedin.com/in/jeremiah-ikechukwu-egbune-98b0a1178/' target='_blank'><AiFillLinkedin className='text-3xl text-blue-600' /></Link>
-    <Link href='https://www.facebook.com/jeremiah.egbune' target='_blank'><AiFillFacebook className='text-3xl text-blue-600' /></Link>
+  <div className='flex items-center gap-4'>
+    <Link href='https://github.com/jegbune' target='_blank'><AiFillGithub className='text-3xl text-green-500 rounded-full' /></Link>
+    <Link href='https://www.linkedin.com/in/jeremiah-ikechukwu-egbune-98b0a1178/' target='_blank'><AiFillLinkedin className='text-3xl text-green-500 rounded-full' /></Link>
+    <Link href='https://www.facebook.com/jeremiah.egbune' target='_blank'><AiFillFacebook className='text-3xl text-green-600 rounded-full' /></Link>
   </div>
 )
 
@@ -18,13 +18,13 @@ const Nav = () => {
   const NavList = () => (
     <>
       <Link href='#about' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
-      About
+        About
       </Link>
       <Link href='#projects' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
-      Projects
+        Projects
       </Link>
       <Link href='/' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
-      Resume
+        Resume
       </Link>
     </>
   )
