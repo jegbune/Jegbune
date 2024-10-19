@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-inherit'>
+      <body className='bg-background-gradient'>
         <Nav />
         {children}
         <Footer />
