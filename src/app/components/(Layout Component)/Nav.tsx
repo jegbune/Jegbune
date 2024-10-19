@@ -52,7 +52,7 @@ const Nav = () => {
       </div>
       <div className="md:hidden">
         <AiOutlineMenu className='text-3xl cursor-pointer text-green-500' onClick={() => setToggleMenu(prev => !prev)} />
-        {toggleMenu ? <div className='absolute top-28 shadow-md right-4 w-3/4 bg-white p-4 flex items-center flex-col gap-4 text-yellow-500 font-semibold '>
+        {toggleMenu ? <div className='absolute top-28 shadow-md right-4 w-3/4 bg-white p-4 flex items-center flex-col gap-4 text-black font-semibold '>
           <NavList />
           <SocialList />
         </div> : null}
