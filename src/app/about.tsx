@@ -7,7 +7,7 @@ const About = () => {
     <div id='about' className='flex flex-col gap-8 bg-white p-8 md:p-16'>
       <h1 className='font-Montserrat text-3xl text-center font-bold uppercase text-green-500 md:py-8'>About me</h1>
       
-      <div className="flex flex-col gap-12 md:flex-row">    
+      <div className="flex flex-col text-black gap-12 md:flex-row">    
         <div className="flex md:w-[40%] text-center flex-col justify-center border-t-2 border-gray-100  items-center text-2xl shadow-green-300 shadow-md rounded-xl md:p-10 p-6">
         {data}
           </div>
