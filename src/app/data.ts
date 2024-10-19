@@ -5,6 +5,11 @@
 //   certs: string[],
 // }
 
+export const profile ={
+  welcome: 'Welcome to My PortFolio',
+  data:"Hi there! I’m Jeremiah Ikechukwu Egbune, a frontend developer and electrical engineer with a passion for creating dynamic web applications and solving complex technical problems. From coding responsive websites to maintaining critical infrastructure systems, I combine creativity and engineering expertise to deliver efficient, innovative solutions."
+}
+
 export const data = 'Hi, I’m Jeremiah Ikechukwu Egbune, a passionate frontend developer and electrical engineering major specializing in electronics at Yaba College of Technology. With experience in both web development and electrical engineering, I bring a unique blend of creativity and technical expertise to every project.'
 
 export const careers = [

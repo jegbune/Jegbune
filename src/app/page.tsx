@@ -1,13 +1,14 @@
 import Image from "next/image";
 import profileImg from './assets/profile.png'
 import About from "./about";
+import { profile } from "./data";
 export default function Home() {
   return (
-    <div>
+    <div className="bg-transparent">
       <div className="flex flex-col md:flex-row py-12 md:p-16 px-8 gap-8">
         <div className="flex-1 md:p-12">
-          <h1 className="font-Montserrat  text-4xl md:text-4xl lg:text-7xl font-extrabold leading-normal bg-clip-text text-transparent bg-text-gradient">Welcome to My PortFolio</h1>
-          <p className="py-4 md:w-full text-gray-500">Hi there! I’m Jeremiah Ikechukwu Egbune, a frontend developer and electrical engineer with a passion for creating dynamic web applications and solving complex technical problems. From coding responsive websites to maintaining critical infrastructure systems, I combine creativity and engineering expertise to deliver efficient, innovative solutions.</p>
+          <h1 className="font-Montserrat  text-4xl md:text-4xl lg:text-7xl font-extrabold leading-normal bg-clip-text text-transparent bg-text-gradient">{profile.welcome}</h1>
+          <p className="py-4 md:w-full text-gray-500">{profile.data}</p>
         </div>
 
         <div className="flex flex-1 justify-center items-center">
