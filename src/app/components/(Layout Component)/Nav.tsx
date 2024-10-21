@@ -20,7 +20,7 @@ const Nav = () => {
       <Link href='#about' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
         About
       </Link>
-      <Link href='#projects' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
+      <Link href='#project' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
         Projects
       </Link>
       <Link href='/' className='w-full md:border-b-0 border-b-2 text-center p-2 text-lg'>
@@ -35,7 +35,7 @@ const Nav = () => {
 
 
   return (
-    <div className='flex  justify-between  items-center w-full py-6 px-12 bg-white shadow-md font-Montserrat'>
+    <div className='flex  justify-between fixed top-0 md:relative items-center w-full py-6 px-12 bg-white shadow-md font-Montserrat'>
       <Link href='/'>
         <div className='flex md:gap-4 gap-8 justify-center items-center text-xl font-bold cursor-pointer'>
           <p className=' flex justify-center items-center w-12 h-12 border-4 border-green-500 text-green-500 rounded-full text-3xl'>J</p>

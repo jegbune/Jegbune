@@ -1,7 +1,8 @@
 import Image from "next/image";
 import profileImg from './assets/profile.png'
 import About from "./about";
-import { profile } from "./data";
+import { profile } from "./data/data";
+import Projects from "./project";
 export default function Home() {
   return (
     <div className="bg-transparent">
@@ -19,6 +20,7 @@ export default function Home() {
         </div>
       </div>
     <About />
+    <Projects />
     </div>
   );
 }

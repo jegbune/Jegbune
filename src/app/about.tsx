@@ -1,4 +1,4 @@
-import { careers, data } from "./data"
+import { careers, data } from "./data/data"
 
 
 
