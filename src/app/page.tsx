@@ -5,7 +5,7 @@ import { profile } from "./data/data";
 import Projects from "./project";
 export default function Home() {
   return (
-    <div className="bg-transparent">
+    <div className="bg-transparent pt-20 md:pt-0">
       <div className="flex flex-col md:flex-row py-12 md:p-16 px-8 gap-8">
         <div className="flex-1 md:p-12">
           <h1 className="font-Montserrat  text-4xl md:text-4xl lg:text-7xl font-extrabold leading-normal bg-clip-text text-transparent bg-text-gradient">{profile.welcome}</h1>
